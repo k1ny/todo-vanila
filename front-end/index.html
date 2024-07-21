@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <form class="creation-form">
+    <label>
+      <input class="todo-create__input">
+    </label>
+    <button type="submit" class="todo-create button">Добавить задание</button>
+  </form>
+
+  <div class="todos-container">
+    Загрузка...
+  </div>
+
+  <template class="todo-template">
+    <div class="todo-container">
+      <p class="todo-text"></p>
+      <label>
+        <input type="text" class="edit-input">
+      </label>
+      <label>
+        <input type="checkbox" class="todo-checkbox">
+      </label>
+      <button class="todo-editor button">Изменить</button>
+      <button class="todo-delete button">Удалить</button>
+    </div>
+
+  </template>
+
+  <script src="main.js"></script>
+  </body>
+
+</html>

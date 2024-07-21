@@ -1,0 +1,3 @@
+[submodule "simple-todo-api"]
+	path = simple-todo-api
+	url = https://github.com/nothugofsea/simple-todo-api
